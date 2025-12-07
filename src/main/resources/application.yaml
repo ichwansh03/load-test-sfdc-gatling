@@ -9,4 +9,5 @@ salesforce:
         username: your-username
         password: your-password
         login-url: https://login.salesforce.com
+        oauth2-token-url: /services/oauth2/token
         objects: Account
