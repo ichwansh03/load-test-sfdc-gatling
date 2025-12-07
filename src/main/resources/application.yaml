@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: loadtest
+
+salesforce:
+    client:
+        id: your-client-id
+        secret: your-client-secret
+        username: your-username
+        password: your-password
+        login-url: https://login.salesforce.com
+        objects: Account

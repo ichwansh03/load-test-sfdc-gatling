@@ -1,0 +1,15 @@
+{
+  "ContactId": "#{ContactId}",
+  "RecordTypeId": "#{RecordTypeId}",
+  "Status": "#{Status}",
+  "Type": "#{Type}",
+  "Origin": "#{Origin}",
+  "Subject": "#{Subject}",
+  "Description": "#{Description}",
+  "Priority": "#{Priority}",
+  "OwnerId": "#{OwnerId}",
+  "Case_Type__c": "#{Case_Type__c}",
+  "Case_Type_Config__c": "#{Case_Type_Config__c}",
+  "Related_Department__c": "#{Related_Department__c}",
+  "PIC_Department_LU__c": "#{PIC_Department_LU__c}"
+}

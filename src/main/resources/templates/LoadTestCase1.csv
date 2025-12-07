@@ -1,0 +1,8 @@
+ContactId,RecordTypeId,Status,Type,Origin,Subject,Description,Priority,OwnerId,Case_Type__c,Case_Type_Config__c,Related_Department__c,PIC_Department_LU__c
+003fV000003tTR9QAM,01290000000msDhAAI,New,Request,Email,Testing,Testing From Postman 1,Medium,00G6F000004KISQUA4,Request_CCC_Call Back DMU,Request_CCC_Call Back DMU,CCC,005fV000001oQJ0QAM
+003fV000003tZpFQAU,01290000000msDhAAI,New,Request,Email,Testing,Testing From Postman 2,Medium,00G6F000004KISQUA4,Request_CCC_Call Back DMU,Request_CCC_Call Back DMU,CCC,005fV000001oQJ0QAM
+003fV000003tZpNQAU,01290000000msDhAAI,New,Request,Email,Testing,Testing From Postman 3,Medium,00G6F000004KISQUA4,Request_CCC_Call Back DMU,Request_CCC_Call Back DMU,CCC,005fV000001oQJ0QAM
+003fV000003tZpGQAU,01290000000msDhAAI,New,Request,Email,Testing,Testing From Postman 4,Medium,00G6F000004KISQUA4,Request_CCC_Call Back DMU,Request_CCC_Call Back DMU,CCC,005fV000001oQJ0QAM
+003fV000003tZovQAE,01290000000msDhAAI,New,Request,Email,Testing,Testing From Postman 5,Medium,00G6F000004KISQUA4,Request_CCC_Call Back DMU,Request_CCC_Call Back DMU,CCC,005fV000001oQJ0QAM
+003fV000003tZplQAE,01290000000msDhAAI,New,Request,Email,Testing,Testing From Postman 6,Medium,00G6F000004KISQUA4,Request_CCC_Call Back DMU,Request_CCC_Call Back DMU,CCC,005fV000001oQJ0QAM
+003fV000003tZopQAE,01290000000msDhAAI,New,Request,Email,Testing,Testing From Postman 7,Medium,00G6F000004KISQUA4,Request_CCC_Call Back DMU,Request_CCC_Call Back DMU,CCC,005fV000001oQJ0QAM
