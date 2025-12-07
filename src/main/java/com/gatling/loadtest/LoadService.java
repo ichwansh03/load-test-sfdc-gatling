@@ -10,7 +10,7 @@ import static io.gatling.javaapi.http.HttpDsl.http;
 
 public class LoadService extends Simulation {
 
-    public static final String ACCESS_TOKEN = "00DfV000000z9pe!AQEAQFtOWio2QmdgJJ.EwQGvbYah.etBi1XGRnuKmMR177htZRD7.GOtOa2DnMZC57.PA5GHU9R8_4f9UOuEzEb_NSVmqbi5";
+    public static final String ACCESS_TOKEN = "token";
     public static final String BASE_URL = "https://axaid-ccc--sbrlsdmtm.sandbox.my.salesforce.com";
     public static final String API_ENDPOINT = "/services/data/v61.0/sobjects/Case/";
 
