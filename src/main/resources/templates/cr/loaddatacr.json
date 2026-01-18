@@ -1,0 +1,10 @@
+{
+  "Contact__c": "#{Contact__c}",
+  "RecordTypeId": "#{RecordTypeId}",
+  "Call_Status_Config__c": "#{Call_Status_Config__c}",
+  "Reason_Status_Config__c": "#{Reason_Status_Config__c}",
+  "Call_Remarks__c": "#{Call_Remarks__c}",
+  "OwnerId": "#{OwnerId}",
+  "Collection_Call_Date__c": "#{Collection_Call_Date__c}",
+  "Confirm__c": true
+}
