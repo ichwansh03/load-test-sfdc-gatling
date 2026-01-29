@@ -18,11 +18,11 @@ import static io.gatling.javaapi.core.CoreDsl.*;
 import static io.gatling.javaapi.http.HttpDsl.http;
 import static io.gatling.javaapi.http.HttpDsl.status;
 
-public class LoadService extends Simulation {
+public class LoadCallLineService extends Simulation {
 
     public static final String BASE_URL = "https://axaid-ccc--sbrlsdmtm.sandbox.my.salesforce.com";
     public static final String API_ENDPOINT = "/services/data/v61.0/sobjects/Call_Line__c/";
-    public static final String ACCESS_TOKEN = getTokenFromService();
+    public static final String ACCESS_TOKEN = TokenService.getTokenFromService();
 
     HttpProtocolBuilder builder = http
             .baseUrl(BASE_URL)
@@ -51,41 +51,8 @@ public class LoadService extends Simulation {
 
     {
         setUp(
-                insertCase.injectOpen(rampUsers(7).during(5))
+                insertCase.injectOpen(rampUsers(8).during(5))
         ).protocols(builder);
-    }
-
-    private static String getTokenFromService() {
-        try {
-
-            String body =
-                    "grant_type=client_credentials" +
-                            "&client_id=<id>" +
-                            "&client_secret=<secret>";
-
-            HttpRequest request = HttpRequest.newBuilder()
-                    .uri(URI.create(BASE_URL + "/services/oauth2/token"))
-                    .header("Content-Type", "application/x-www-form-urlencoded")
-                    .POST(HttpRequest.BodyPublishers.ofString(body))
-                    .build();
-
-            HttpClient httpClient = HttpClient.newHttpClient();
-            HttpResponse<String> response =
-                    httpClient.send(request, HttpResponse.BodyHandlers.ofString());
-
-            if (response.statusCode() != 200) {
-                throw new RuntimeException("Failed to get token: " + response.body());
-            }
-
-            // Parse JSON response
-            ObjectMapper mapper = new ObjectMapper();
-            JsonNode jsonNode = mapper.readTree(response.body());
-
-            return jsonNode.get("access_token").asText();
-
-        } catch (Exception e) {
-            throw new RuntimeException("Failed to get access token", e);
-        }
     }
 
 }

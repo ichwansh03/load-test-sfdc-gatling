@@ -1,0 +1,9 @@
+﻿Contact__c,Call_Status_Config__c,Reason_Status_Config__c,Call_Remarks__c,OwnerId,Id
+003fV000003tZov,P,SCON,testing from postman 1.4,005fV000001oQJ0,a01fV000004v0ty
+003fV000003tZou,F,No Answer,testing from postman 2.4,005fV000001oQJ0,a01fV000005k2fO
+003fV000003tZpN,Uncontacted,Mailbox,testing from postman 3.4,005fV000001oQJ0,a01fV000005ViZo
+003fV000003tZpb,F,Mailbox,testing from postman 4.4,005fV000001oQJ0,a01fV000005jkNf
+003fV000003tZp2,F,Wrong Number,testing from postman 5.4,005fV000001oQJ0,a01fV000004v0twQAA
+003fV000003tZpl,F,Busy Line,testing from postman 6.4,005fV000001oQJ0,a01fV000004v0txQAA
+003fV000003tZpN,F,Mailbox,testing from postman 7.4,005fV000001oQJ0,a01fV000004v0tuQAA
+003fV000003tZop,P,SFIN,testing from postman 8.4,005fV000001oQJ0,a01fV000004acunQAA
