@@ -41,9 +41,7 @@ public class TokenService {
         try {
 
             String body =
-                    "grant_type=client_credentials" +
-                            "&client_id=3MVG9yj3UGaUlj7k3HX2usqyaeDhIC7galCRhSLs6NpDyJHE9dkUO0oToFC2DwZqsSb7JWl6m7URU4A.6f1W1" +
-                            "&client_secret=82B840D7AF61B9E53C625BE1CA7A12736BE6206E3C8AD48B09307073C640AC4C";
+                    "<secret>";
 
             HttpRequest request = HttpRequest.newBuilder()
                     .uri(URI.create(BASE_URL + "/services/oauth2/token"))
