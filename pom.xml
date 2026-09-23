@@ -97,7 +97,7 @@
 			<plugin>
 				<groupId>io.gatling</groupId>
 				<artifactId>gatling-maven-plugin</artifactId>
-				<version>4.20.6</version>
+				<version>4.21.12</version>
 			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
